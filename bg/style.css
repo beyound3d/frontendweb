@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    min-height:100vh;
+    /* background:#0c192c; */
+}
+h1{
+    color:ffffff;
+}
+#navbar{
+    display:flex;
+    align-items:centre;
+    justify-content:centre;
+}
+#navbar li {
+    list-style:none;
+    padding:0 20px;
+    /* position:relative; */
+}
+#navbar li a{
+    text-decoration:none;
+    font-size:16px;
+    font-weight:600;
+    color:#1a1a1a;
+    transition: 0.3s ease;
+}
