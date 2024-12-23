@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <style>
+        .raring_wrapper{
+            border-radius: 10px;
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            
+        }
+        .rating_wrapperf_c{
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .review_star{
+            display: flex;
+            gap: 10px;
+        }
+        .review_star i{
+            font-size: 32px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating_text{
+            font-size: 16px;
+        }
+        .rating_text_b{
+            font-weight: 600;
+            font-size: 30px;
+        }
+        .comment_section label{
+            display: block;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .all_wrap{
+            width: 50%;
+        }
+        .comment_section textarea{
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            padding: 8px;
+            outline: none;
+            font-size: 14px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid mt-3">
+        <div class="container">
+            <div class="raring_wrapper">
+                <div class="all_wrap">
+
+                
+                    <div class="rating_wrapperf_c">
+                        <div class="review_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>                    
+                        </div>
+                        <div class="review_point">
+                            <span class="rating_text"><span class="rating_text_b">0</span> /5</span>
+                        </div>
+                    </div>
+                    <div class="mt-4 comment_section">
+                        <label for="">Comments:</label>
+                        <textarea name="" id="" rows="4"></textarea>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
